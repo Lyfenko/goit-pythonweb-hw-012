@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "fastapiproject11"
+version = "0.1.0"
+description = ""
+authors = ["Dmytro Lyfenko <114363730+Lyfenko@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.95.1"
+uvicorn = "^0.22.0"
+sqlalchemy = "^2.0.12"
+passlib = "^1.7.4"
+jose = "^1.0.0"
+sendgrid = "^6.10.0"
+cloudinary = "^1.33.0"
+pytest = "^7.3.1"
+django-sendgrid-webhook = "^0.3.0"
+fastapi-limiter = "^0.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
